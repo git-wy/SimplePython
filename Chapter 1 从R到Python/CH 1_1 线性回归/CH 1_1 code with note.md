@@ -10,7 +10,7 @@ description: 王汉生老师书的第一章，线性回归的python极简实现
 
 ## 导入模块
 
-```
+``` python
 import pandas as pd  # NOTE。pandas模块用于读取数据、处理数据等
 from numpy import mean, median, var, std  # 从模块numpy导入子模块；均值、中位数、方差、标准差
 import matplotlib.pyplot as plt  # 画图模块
