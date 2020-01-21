@@ -10,14 +10,22 @@ description: Python的模块
 
 
 ## 1. Python模块的基础用法
-1. 安装模块：  
-1.1 直接打开cmd，用`pip install module_name` 可以安装相应模块  
-1.2 比如`pip install pandas`。（如果通过Anaconda安装Python，很多常用模块已经下载好了）  
-1.3 通常报错`No module named 'XXX'`的时候，就是没有安装模块。需要`pip install`一下
+#### 1.1 安装模块：  
+1. 直接打开cmd，用`pip install module_name` 可以安装相应模块  
+2. 比如`pip install pandas`。（如果通过Anaconda安装Python，很多常用模块已经下载好了）  
+3. 通常报错`No module named 'XXX'`的时候，就是没有安装模块。需要`pip install`一下
 
-2. 更新模块：  
-2.1 `pip install --upgrade module_name`  
-2.2 比如，`pip install --upgrade pandas`  
+
+关于`pip install`和`pip3 install`：  
+> 1. 可以简单理解为版本不同，如果只安装了Python3两个命令是没有区别的。  
+> 2. 如果安装了Python 2.x和Python 3.x，`pip install`会安装在Python 2.x路径下，那用Python 3.x运行的时候就不能`import`了  
+> 正常应该不会有这个问题的。  
+> 3. 下面也是一样的。
+
+
+#### 1.2 更新模块：  
+1. `pip install --upgrade module_name`  
+2. 比如，`pip install --upgrade pandas`  
 
 
 ## 2. Pycharm中的一些有用的设置
@@ -29,7 +37,7 @@ description: Python的模块
 # Author: W.Y.
 # Date: ${DATE}
 ```
-这样每次新建一个Python文件，都会有这些。看起来是不是就比较装ACD了？哈哈哈~
+这样每次新建一个Python文件，都会有这些。看起来是不是就比较高级了？哈哈哈~
 
 #### 2.2 插件
 Pycharm有很丰富的插件。在`File | Settings | Plugins`中查找、下载、启用。  
