@@ -8,6 +8,10 @@ description: 王汉生老师书的第一章，线性回归的python极简实现
 
 ----
 
+## Content
+*[导入模块](#导入模块)  
+*[导入数据](#导入数据)
+
 ## 导入模块
 
 ``` python
@@ -174,21 +178,6 @@ model2.summary()
 ```
 lmdiag.plot(model2)
 ```
-
-# 也可以单独画图
-```
-lmdiag.resid_fit(model2)  
-```
-```
-lmdiag.q_q(model2)
-```
-```
-lmdiag.scale_loc(model2)
-```
-```
-lmdiag.resid_lev(model2)
-```
-
 
 **NOTE**
 >细心的小伙伴应该发现了，Python画出的图，标出的异常值点和书上用R画图标出的点不同。
