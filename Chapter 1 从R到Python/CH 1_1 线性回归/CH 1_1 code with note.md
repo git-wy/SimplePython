@@ -271,7 +271,7 @@ X_train = data2002_a.iloc[:, 1:10]  # 选择自变量列
 ``` python
 # AIC
 
-stepwiseSelection.backwardSelection(X_train, data2002_a['ROE'])
+aic_vars, aic_logs = stepwiseSelection.backwardSelection(X_train, data2002_a['ROE'])
 ```
 
 ``` python
@@ -282,7 +282,7 @@ model_aic = smf.ols("ROE ~ ROEt + LEV + GROWTH + ARR",
 ``` python
 # BIC
 
-stepwiseSelection.backwardSelection(X_train, data2002_a['ROE'], elimination_criteria='bic')
+bic_vars, bic_logs = stepwiseSelection.backwardSelection(X_train, data2002_a['ROE'], elimination_criteria='bic')
 ```
 
 ``` python
@@ -295,8 +295,12 @@ model_bic = smf.ols("ROE ~ ROEt + LEV",
 >这个自定义的`stepwiseSelection`函数没有封装，无法通过`pip install`安装导入，所以通过自定义模块导入。具体方法前面已经说了。
 >2. Python和R计算出来的AIC和BIC值不同（Python可通过`model.aic`和`model.bic`计算AIC和BIC值，模型结果中也有）。
 >可能是计算方法不同，我也不是很清楚。总之，导致基于AIC和BIC选择的变量不一样。
->3. `stepwiseSelection`函数返回的不是模型，所以要根据变量选择的结果，自己重新定义模型，而不能直接赋值。
->4. 因为第2条原因，结果和R不一样。为了后面更好的对比，我还是用了和书上一样的变量。
+>3. `stepwiseSelection`函数返回的不是模型，而是最终结果和中间每次迭代的结果。`ctrl+鼠标左键点击`函数`stepwiseSelection`，
+>可以看到源代码最后，返回了两个结果（`return cols, interations_log`），所以赋值的时候，也需要同时赋两个值。
+>4. 这里可以稍微看看Python的赋值规则，如果函数返回值是多个，那么赋值的时候也要有相同个，个数不同是不行的。
+>如果不进行赋值，则会把所有结果输出，这个案例中就是会输出每次迭代的结果结果就会很乱。
+>5. 因为第3条，返回的结果不是模型，所以要根据变量选择的结果，自己重新定义模型。
+>6. 因为第2条，结果和R不一样。为了后面更好的对比，我还是用了和书上一样的变量。
 
 
 ## 11. 预测
