@@ -1,10 +1,9 @@
-# Chapter 1_1 线性回归
+# Chapter 1_1 线性回归 
 
 ----
-author: W.Y.  
-first_edition: 2019/12/31  
-last_edition: 2020/1/18  
-description: 王汉生老师书的第一章，线性回归的python极简实现  
+Author: W.Y.  
+Date: 2019/12/31  
+Info: 王汉生老师书的第一章，线性回归的python极简实现  
 
 ----
 
@@ -14,45 +13,62 @@ description: 王汉生老师书的第一章，线性回归的python极简实现
 
 ## 导入模块
 
+```python
+import pandas as pd
+
+data = pd.read_csv()
+```
+
 ``` python
-import pandas as pd  # NOTE。pandas模块用于读取数据、处理数据等
-from numpy import mean, median, var, std  # 从模块numpy导入子模块；均值、中位数、方差、标准差
-import matplotlib.pyplot as plt  # 画图模块
-import matplotlib
-import statsmodels.formula.api as smf  # 基于公式的统计模型API接口
-import lmdiag  # 画模型诊断图的模块
-from patsy import dmatrices  # NOTE。用于分析统计模型，构建矩阵（这里是为了做共线性诊断）
+import pandas as pd
+
+data = pd.read_csv()
+```
+
+``` python
+import pandas as pd   # pandas模块读取数据、处理数据等，Python必备模块之一
+import numpy as np  # numpy模块处理数据，Python必备模块之一
+import matplotlib.pyplot as plt   # 画图模块，Python必备模块之一
+import matplotlib  # 画图模块，用于设置
+import statsmodels.formula.api as smf   # 数据分析模块，做数据分析的必备模块之一 
+import lmdiag   # 用于画模型诊断图
+from patsy import dmatrices   # 用于描述统计模型
 from statsmodels.stats.outliers_influence import variance_inflation_factor   # 用于共线性诊断
+from SelfModule import stepwiseSelection  # 用于变量选择的自定义模块
 ```
 
 **NOTE**
->1. 导入pandas,命名为pd。通常在模块名很长时使用 import xxx as x的格式，方便简单。
->常用缩写有`import pandas as pd`, `import numpy as np`
->2. `from patsy import dmatrices`这句可能会出现`Cannot find reference`的报错，下面画红色波浪线，这算是Pycharm的bug吧，可以不管，可以正常运行
+>1. 通常在模块名很长时用 `import xxx as x` 的格式，方便简单。
+>比如，`import pandas as pd`, `import numpy as np`等等。
+>2. `from patsy import dmatrices`这句可能会出现`Cannot find reference`的报错，下面画红色波浪线，这算是Pycharm的bug吧，可以不管，能够正常运行
+>3. 关于导入自定义模块，请参考 [番外]()，设置之后才可以使用
 
 
 ## 导入数据
 
-```
+```python
 # 导入数据之导入txt文件  
-# NOTE
-data = pd.read_csv('E:\Data Mining\SimplePython\Chapter 1 从R到Python\CH 1_1 线性回归\CH 1_1 data.txt', sep = '\s+')
+
+data = pd.read_csv('E:/Data Mining/SimplePython/Chapter 1 从R到Python/CH 1_1 线性回归/CH 1_1 data.txt', sep = '\s+')
 ```
 
 **NOTE**
 >1. 导入txt文件，常用函数有`read_csv()`, `read_table()`，主要区别是前者默认读取逗号分隔符，可指定其它分隔符，后者无默认分隔符，必须指定分隔符。
 >2. 本案例的txt文件有些特殊，以多个空格分隔，且首行和其它行分隔的空格数不同，因此用正则表达式，`\s`代表空格、tab等空白字符，`\s+`代表多个空白字符 
->3. 表示路径时，理论上用`\`或者`/`都可以，但是我更建议用`/`，因为`\`也用做转义，如果文件名开头以数字或某些特殊单词开头时会出错。如果用`\`最好用`\\`
+>3. 表示路径时，理论上用`\`或者`/`都可以，但是我更建议用`/`，因为`\`也用做转义，如果文件名开头以数字或某些特殊单词开头时会出错。
 >4. 通常不建议用带有中文的路径，不管是R还是Python都是如此。不过这里我乐意~~
 
 
-```
-# 查看数据前10行。
-# NOTE
+```python
+# 预览数据（方法一）
+
 data.head(10)
 ```
-```
-pd.DataFrame.head(data,10)
+
+```python
+# 预览数据（方法二）
+
+pd.DataFrame.head(data,5)
 ```
 
 **NOTE**
