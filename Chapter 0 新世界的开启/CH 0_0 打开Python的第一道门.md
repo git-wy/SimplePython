@@ -24,16 +24,20 @@ description: Python的安装、设置、运行
 
 ## 2. 关于Pycharm和Jupyter Notebook的选择
 1. Pycharm和Jupyter Notebook都是Python的IDE，可以理解为R studio和R的关系。   
-2. 通常说法是新手用Jupyter Notebook，大项目用Pycharm。  
+2. 通常说法是新手用Jupyter Notebook，大项目用Pycharm。也还有其它的IDE，或者直接cmd运行都可以。  
 
-但我个人觉得Pycharm好用。原因有三：  
-a. Pycharm看起来更高大上。尤其是暗黑模式，非常有黑客的感jio~  
-b. Pycharm数据库功能强大，查看、整理数据很方便。  
-c. Pycharm有很多插件，也有阉割版的Jupyter Notebook,两全其美！所以为啥不直接用Pycharm呢~  
-（唯一的缺点就是耗内存）
+但我个人觉得Pycharm好用：  
+1. 看起来更高大上，非常有感jio~  
+2. 项目管理很方便
+3. 数据库功能强大，查看、整理数据很方便。  
+4. 有很多插件，也有阉割版的Jupyter Notebook,两全其美！所以为啥不直接用Pycharm呢~  
+
+也有缺点：
+1. 内存、CPU占用高
+2. 吃配置，配置低的话，可能会很卡。
 
 >我用的就是Pycharm，所以很多设置什么的都是以Pycharm为准。
->如果用Jupyter Notebook，有不一样的地方就只能自行百度了~
+>如果用Jupyter Notebook或其它，有不一样的地方就只能自行百度了~
 >（没错！就是要你跟我一起用Pycharm~哈哈哈）
 
 #### 2.1 Pycharm的安装
@@ -59,9 +63,9 @@ c. Pycharm有很多插件，也有阉割版的Jupyter Notebook,两全其美！�
 
 
 ## 5. 设置字符编码
-通常源代码用的是utf-8的字符编码。
+通常源代码我们用的是utf-8的字符编码。
 1. Pycharm中可以在`File | Settings | Editor | File Encodings`里面设置。
-2. 在Python文件中要声明文件所使用的编码，在文件第一行加入`# -*- coding: utf-8 -*-`。
+2. 在Python文件（扩展名是`.py`）中要声明文件所使用的编码，在文件第一行加入`# -*- coding: utf-8 -*-`。
 
 
 ## 6. Hello World!
