@@ -106,7 +106,7 @@ SimplePython
 2. 番外二：匿名函数（lambda）
 2. 番外三：内置函数（map, reduce, filter等）
 3. 番外四：自定义函数
-4. 番外五：调用自定义模块
+4. 番外五：调用自定义模块 [初步完结](https://github.com/git-wy/SimplePython/blob/master/%E7%95%AA%E5%A4%96%E7%AF%87/%E7%95%AA%E5%A4%96%E4%BA%94%20%E8%B0%83%E7%94%A8%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A8%A1%E5%9D%97.md)
 3. 番外六：调用API事半功倍
 
 # APPENDIX：资源汇总
