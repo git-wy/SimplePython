@@ -79,10 +79,12 @@ plt.boxplot(log_rate)
 # 自相关系数
 
 plot_acf(data['rate'], lags=30) 
+plt.show()
 ```
 
 ``` python
 plot_acf(log_rate, lags=30)
+plt.show()
 ```
 
 ## 6. 自回归模型
@@ -111,6 +113,7 @@ model2.params  # 也是为2
 # 自相关系数图
 
 plot_acf(model2.resid, lags=30)
+plt.show()
 ```
 
 ``` python
@@ -123,6 +126,7 @@ model2.resid.plot()
 # QQ图
 
 sma.qqplot(model2.resid)
+plt.show()
 ```
 
 ## 8.预测
