@@ -1,10 +1,10 @@
 # Chapter 0_1. 打开Python的第二道门
 
-----
-author: W.Y.  
-first_edition: 2020/1/3  
-last_edition: 2020/1/14  
-description: Python的模块
+---- 
+Author: W.Y.  
+Date: 2020/1/3  
+Update: 2020/1/14  
+Info: Python的模块
 
 ----
 

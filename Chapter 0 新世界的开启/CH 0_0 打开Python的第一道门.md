@@ -1,10 +1,10 @@
 # Chapter 0_0. 打开Python的第一道门
 
 ----
-author: W.Y.  
-first_edition: 2019/12/31  
-last_edition: 2020/1/14  
-description: Python的安装、设置、运行
+Author: W.Y.  
+Date: 2019/12/31  
+Update: 2020/1/14  
+Info: Python的安装、设置、运行
 
 ----
 
