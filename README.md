@@ -52,12 +52,12 @@ SimplePython
 **CONTENT**
 1. 线性回归 [初步完结](https://github.com/git-wy/SimplePython/tree/master/Chapter%201%20%E4%BB%8ER%E5%88%B0Python/CH%201_1%20%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92)
 2. 方差分析 [初步完结](https://github.com/git-wy/SimplePython/tree/master/Chapter%201%20%E4%BB%8ER%E5%88%B0Python/CH%201_2%20%E6%96%B9%E5%B7%AE%E5%88%86%E6%9E%90)
-3. 协方差分析 [初步完结]()
-4. 0-1回归 [初步完结]()
-5. 定序回归 [初步完结]()
-6. 泊松回归 [初步完结]()
-7. 生存分析 [初步完结]()
-8. 自回归 [初步完结]()
+3. 协方差分析 [初步完结](https://github.com/git-wy/SimplePython/tree/master/Chapter%201%20%E4%BB%8ER%E5%88%B0Python/CH%201_3%20%E5%8D%8F%E6%96%B9%E5%B7%AE%E5%88%86%E6%9E%90)
+4. 0-1回归 [初步完结](https://github.com/git-wy/SimplePython/tree/master/Chapter%201%20%E4%BB%8ER%E5%88%B0Python/CH%201_4%200-1%E5%9B%9E%E5%BD%92)
+5. 定序回归 [未完成](https://github.com/git-wy/SimplePython/tree/master/Chapter%201%20%E4%BB%8ER%E5%88%B0Python/CH%201_5%20%E5%AE%9A%E5%BA%8F%E5%9B%9E%E5%BD%92)
+6. 泊松回归 [初步完结](https://github.com/git-wy/SimplePython/tree/master/Chapter%201%20%E4%BB%8ER%E5%88%B0Python/CH%201_6%20%E6%B3%8A%E6%9D%BE%E5%9B%9E%E5%BD%92)
+7. 生存分析 [初步完结](https://github.com/git-wy/SimplePython/tree/master/Chapter%201%20%E4%BB%8ER%E5%88%B0Python/CH%201_7%20%E7%94%9F%E5%AD%98%E5%88%86%E6%9E%90)
+8. 自回归 [初步完结](https://github.com/git-wy/SimplePython/tree/master/Chapter%201%20%E4%BB%8ER%E5%88%B0Python/CH%201_8%20%E8%87%AA%E5%9B%9E%E5%BD%92)
 
 
 # Chapter 2 机器学习

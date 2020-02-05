@@ -32,7 +32,7 @@ import seaborn as sns
 import statsmodels.formula.api as smf  
 import statsmodels.api as sma
 import lmdiag  
-from SelfModule import stepwiseSelection
+import stepwiseSelection
 ```
 
 ## 2. 数据导入与预处理

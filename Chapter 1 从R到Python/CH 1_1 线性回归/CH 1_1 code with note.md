@@ -33,9 +33,9 @@ import matplotlib.pyplot as plt   # 画图模块，Python必备模块之一
 import matplotlib  # 画图模块，用于设置
 import statsmodels.formula.api as smf   # 数据分析模块，做数据分析的必备模块之一 
 import lmdiag   # 用于画模型诊断图
+import stepwiseSelection  # 用于变量选择的自定义模块
 from patsy import dmatrices   # 用于描述统计模型
 from statsmodels.stats.outliers_influence import variance_inflation_factor   # 用于共线性诊断
-from SelfModule import stepwiseSelection  # 用于变量选择的自定义模块
 ```
 
 **NOTE**

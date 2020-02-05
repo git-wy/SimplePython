@@ -31,8 +31,8 @@ import matplotlib.pyplot as plt
 import matplotlib
 import seaborn as sns
 import statsmodels.formula.api as smf  
+import stepwiseSelection
 from sklearn import metrics  # 用于计算fpr和tpr
-from SelfModule import stepwiseSelection
 ```
 
 ## 2. 数据导入与预处理
