@@ -82,7 +82,8 @@ SimplePython
 1. 数据理解和数据准备[初步完结]()
 1.1 case1: 数据整合
 1.2 case2: 数据准备
-2. 
+2. 缺失数据[更新中]()
+3. [待更新]()
 
 
 # Chapter 3 自然语言处理
@@ -132,3 +133,5 @@ SimplePython
 3. 番外六：调用API事半功倍
 
 # APPENDIX：资源汇总
+
+1. Python官方文档。[英文版](https://docs.python.org/3/tutorial/)，[中文版](https://docs.python.org/zh-cn/3/tutorial/index.html)
