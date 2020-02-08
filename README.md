@@ -12,10 +12,10 @@ SimplePython
 
 #### 注意
 1. 建议的学习顺序：  
-1.1 最开始必须看Chapter 0
-1.2 然后按照Chapter 1 → Chapter 2的顺序。（从R到Python这两章，是为大家量身定做的~希望能够帮到大家！）
-1.3 非常建议学完前三章再学Chapter 3、4、5，这三章没有先后，可以选择性学习
-1.4 番外篇可以选择性学习，或者有需要的时候看。
+1.1 最开始必须看Chapter 0  
+1.2 然后按照Chapter 1 → Chapter 2的顺序。（从R到Python这两章，是为大家量身定做的~希望能够帮到大家！）  
+1.3 非常建议学完前三章再学Chapter 3、4、5，这三章没有先后，可以选择性学习  
+1.4 番外篇可以选择性学习，或者有需要的时候看。  
 
 # Chapter 0 新世界的开启
 **INFO**
@@ -79,11 +79,11 @@ SimplePython
 3. 这本书是每章不止一个案例，所以我是每个案例都单独一个文件的。
 
 **CONTENT**
-1. 数据理解和数据准备[初步完结]()
-1.1 case1: 数据整合
-1.2 case2: 数据准备
-2. 缺失数据[更新中]()
-3. [待更新]()
+1. 数据理解和数据准备[初步完结](https://github.com/git-wy/SimplePython/tree/master/Chapter%202%20%E4%BB%8ER%E5%88%B0Python%20%E4%B9%8B%20%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E4%B8%8E%E5%BA%94%E7%94%A8/CH%202_2%20%E6%95%B0%E6%8D%AE%E7%90%86%E8%A7%A3%E5%92%8C%E6%95%B0%E6%8D%AE%E5%87%86%E5%A4%87)  
+1.1 case1: 数据整合  
+1.2 case2: 数据准备  
+2. 缺失数据[更新中](https://github.com/git-wy/SimplePython/tree/master/Chapter%202%20%E4%BB%8ER%E5%88%B0Python%20%E4%B9%8B%20%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E4%B8%8E%E5%BA%94%E7%94%A8/CH%202_3%20%E7%BC%BA%E5%A4%B1%E6%95%B0%E6%8D%AE)  
+3. [待更新]()  
 
 
 # Chapter 3 自然语言处理
