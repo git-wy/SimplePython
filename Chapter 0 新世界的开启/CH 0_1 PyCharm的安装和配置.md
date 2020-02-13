@@ -30,7 +30,8 @@ Info: PyCharm的安装和配置
 1. [下载网址](https://www.jetbrains.com/pycharm/)
 2. 下载电脑对应的版本即可。下载Community版本就可以，是免费的。用Community版本是完全够的，非常够！
 3. 同样，一路`Next`，直到这步，
-必须勾选`Add launchers dir to the PATH`，强烈建议勾选`Add "Open Folder as Project"`。如图：![](https://github.com/git-wy/SimplePython/blob/master/%E5%9B%BE%E7%89%87/Pycharm%E5%AE%89%E8%A3%85%2001.png?raw=true)
+必须勾选`Add launchers dir to the PATH`，强烈建议勾选`Add "Open Folder as Project"`。如图：  
+![如图](https://github.com/git-wy/SimplePython/blob/master/%E5%9B%BE%E7%89%87/Pycharm%E5%AE%89%E8%A3%85%2001.png?raw=true)
 4. 后面基本上没啥，一路完成就可以。
 5. Community版本到这里就结束了。如果确实想用Professional版本，可以自行百度怎么激活。也可以提供一对一服务~
 
