@@ -49,16 +49,18 @@ Info: PyCharm的安装和配置
 
 ## 4. Pycharm中设置解释器
 1. 打开Pycharm之后，在`File | Settings | Project: [Project的名称] | Project Interpreter`里面设置
-2. 在Project Interpreter中，点击小齿轮，选择`Add`，如图：![](https://github.com/git-wy/SimplePython/blob/master/%E5%9B%BE%E7%89%87/Pycharm%20%E8%AE%BE%E7%BD%AE%E8%A7%A3%E9%87%8A%E5%99%A8%2001.png?raw=true)
-3. 应该会出现几种环境的选择，通常会有以下四种，如图：![](https://github.com/git-wy/SimplePython/blob/master/%E5%9B%BE%E7%89%87/Pycharm%20%E8%AE%BE%E7%BD%AE%E8%A7%A3%E9%87%8A%E5%99%A8%2002.png?raw=true)
+2. 在Project Interpreter中，点击小齿轮，选择`Add`，如图：  
+![图片](https://github.com/git-wy/SimplePython/blob/master/%E5%9B%BE%E7%89%87/Pycharm%20%E8%AE%BE%E7%BD%AE%E8%A7%A3%E9%87%8A%E5%99%A8%2001.png?raw=true)
+3. 应该会出现几种环境的选择，通常会有以下四种，如图：  
+![图片](https://github.com/git-wy/SimplePython/blob/master/%E5%9B%BE%E7%89%87/Pycharm%20%E8%AE%BE%E7%BD%AE%E8%A7%A3%E9%87%8A%E5%99%A8%2002.png?raw=true)
 4. 简单介绍一下，主要是前三种比较常用：  
 4.1 Virtualenv Environment：虚拟环境，可以理解为每个Project都重新配置，是相互独立的，模块不通用。我不太建议，如果有多个Python版本同时使用的话，可以用这个。   
 4.2 Conda Environment：就是通过Anaconda安装的话，会有这个环境下的解释器。我用的是这个。   
 4.3 System Environment：直接安装Python，就是系统里安装的Python的解释器。  
 4.4 Pipenv Environment：用pip安装的解释器，我也没用过。  
 5. 设置解释器：  
-5.1 如果是用Anaconda安装的Python，那么就类似我的设置，在`Conda Environment | Existing environment`中，设置为自己的Anaconda安装路径下的Python路径即可。
-如图：![](https://github.com/git-wy/SimplePython/blob/master/%E5%9B%BE%E7%89%87/Pycharm%20%E8%AE%BE%E7%BD%AE%E8%A7%A3%E9%87%8A%E5%99%A8%2003.png?raw=true)  
+5.1 如果是用Anaconda安装的Python，那么就类似我的设置，在`Conda Environment | Existing environment`中，设置为自己的Anaconda安装路径下的Python路径即可。如图：  
+![图片](https://github.com/git-wy/SimplePython/blob/master/%E5%9B%BE%E7%89%87/Pycharm%20%E8%AE%BE%E7%BD%AE%E8%A7%A3%E9%87%8A%E5%99%A8%2003.png?raw=true)  
 5.2 如果是直接安装的Python，那就选择`Systerm`，设置为自己的Python安装路径下的Python.exe即可。  
 
 

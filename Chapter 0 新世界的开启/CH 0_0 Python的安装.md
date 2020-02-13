@@ -24,7 +24,8 @@ Info: Python的安装
 > 2. 目前最新版本是Python 3.7 version，按照自己电脑版本下载对应的就行
 > 3. 双击下载的`.exe`文件，点`Next`继续，根据提示一直继续
 > 4. 到这一步，需要勾选 `Add Anaconda to my_PATH environment variable`
-和 `Register Anaconda as my default Python 3.7`。如图：![](https://raw.githubusercontent.com/git-wy/SimplePython/master/%E5%9B%BE%E7%89%87/Anaconda%E5%AE%89%E8%A3%85%2001.png)
+和 `Register Anaconda as my default Python 3.7`。如图：  
+>![图片](https://raw.githubusercontent.com/git-wy/SimplePython/master/%E5%9B%BE%E7%89%87/Anaconda%E5%AE%89%E8%A3%85%2001.png)
 > 5. 其它都选择默认，或者自己选择安装路径等等，没有关系，只有第4步注意一下。
 > 6. 进入电脑cmd（命令提示符）（Windows用`win+R`打开运行，输入`cmd`，打开命令提示符）。
 输入`python`，如果出现Python版本，说明安装成功
@@ -39,7 +40,8 @@ Info: Python的安装
 > 2. 目前最新版本是3.8.1，Anaconda目前最新是3.7版本，对我们来说没有很大区别。
 >根据自己电脑版本下载对应的就可以。
 > 3. 双击下载的`.exe`文件，继续
-> 4. 同理，要勾选`Add Python 3.8 to PATH`这个选项。网上找的图：![](https://github.com/git-wy/SimplePython/blob/master/%E5%9B%BE%E7%89%87/Python%E5%AE%89%E8%A3%85%2001.png?raw=true)
+> 4. 同理，要勾选`Add Python 3.8 to PATH`这个选项。网上找的图：  
+>![图片](https://github.com/git-wy/SimplePython/blob/master/%E5%9B%BE%E7%89%87/Python%E5%AE%89%E8%A3%85%2001.png?raw=true)
 > 5. 同上面的方法，检查是否安装成功。
 
 

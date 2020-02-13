@@ -19,17 +19,14 @@ SimplePython
 
 # Chapter 0 新世界的开启
 **INFO**
-> 关于Python的安装、设置等  
+> 关于Python的安装、设置，Pycharm的安装、配置等  
 > 闲话多多，干货少少的一章~
 
-**GOAL**
->1. 安装、配置好环境
->2. 了解一些基础用法
-
 **CONTENT**
-1. Python的安装与配置 [初步完结](https://github.com/git-wy/SimplePython/blob/master/Chapter%200%20%E6%96%B0%E4%B8%96%E7%95%8C%E7%9A%84%E5%BC%80%E5%90%AF/CH%200_0%20%E6%89%93%E5%BC%80Python%E7%9A%84%E7%AC%AC%E4%B8%80%E9%81%93%E9%97%A8.md)
-2. Python的基础用法和Tips [持更中](https://github.com/git-wy/SimplePython/blob/master/Chapter%200%20%E6%96%B0%E4%B8%96%E7%95%8C%E7%9A%84%E5%BC%80%E5%90%AF/CH%200_1%20%E6%89%93%E5%BC%80Python%E7%9A%84%E7%AC%AC%E4%BA%8C%E9%81%93%E9%97%A8.md)
-
+1. Python的安装 [初步完结](https://github.com/git-wy/SimplePython/blob/master/Chapter%200%20%E6%96%B0%E4%B8%96%E7%95%8C%E7%9A%84%E5%BC%80%E5%90%AF/CH%200_0%20Python%E7%9A%84%E5%AE%89%E8%A3%85.md)
+2. PyCharm的安装和配置 [初步完结](https://github.com/git-wy/SimplePython/blob/master/Chapter%200%20%E6%96%B0%E4%B8%96%E7%95%8C%E7%9A%84%E5%BC%80%E5%90%AF/CH%200_1%20PyCharm%E7%9A%84%E5%AE%89%E8%A3%85%E5%92%8C%E9%85%8D%E7%BD%AE.md)
+3. Python文件的运行 [待完善]()
+4. PyCharm的小Tips [持更中]()
 
 # Chapter 1 从R到Python 之 应用商务统计分析
 
