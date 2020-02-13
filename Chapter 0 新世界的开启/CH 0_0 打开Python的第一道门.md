@@ -8,18 +8,46 @@ Info: Python的安装、设置、运行
 
 ----
 
-## 1. Python的安装
+## 1. Python的安装（Windows版）
 
-1. 建议通过Anaconda进行安装（[Anaconda下载地址](https://www.anaconda.com/distribution/)）  
-2. 按照自己的电脑版本，下载Python 3.7 version  
-3. 安装过程中，需要勾选 Add Anaconda to my_PATH environment variable
-和 Register Anaconda as my default Python 3.7  
-4. 检查是否安装成功（windows）：进入电脑cmd（命令提示符）（Windows可用`win+R`打开运行，输入cmd打开命令提示符）。
-输入`python`，如果出现Python版本，说明安装成功。
+### 1.1 方法一：通过Anaconda安装（建议）
+
+优点：
+> 1. 包含了很多模块
+> 2. 方便管理环境
+
+缺点：
+> 1. 因为包含了很多模块，所以安装包大，第一次安装比较麻烦，还占内存
+
+安装过程：
+> 1. [Anaconda下载地址](https://www.anaconda.com/distribution/)
+> 2. 目前最新版本是Python 3.7 version，按照自己电脑版本下载对应的就行
+> 3. 双击下载的`.exe`文件，点`Next`继续，根据提示一直继续
+> 4. 到这一步，需要勾选 `Add Anaconda to my_PATH environment variable`
+和 `Register Anaconda as my default Python 3.7`。![如图](https://raw.githubusercontent.com/git-wy/SimplePython/master/%E5%9B%BE%E7%89%87/Anaconda%E5%AE%89%E8%A3%85%2001.png)
+> 5. 其它都选择默认，或者自己选择安装路径等等，没有关系，只有第4步注意一下。
+> 6. 进入电脑cmd（命令提示符）（Windows用`win+R`打开运行，输入`cmd`，打开命令提示符）。
+输入`python`，如果出现Python版本，说明安装成功
 
 
->1. 如果安装不成功或有其他问题，请自行百度。或私聊，提供一对一服务，欸嘿~  
->2. 我电脑是windows，所以设置啥的都是以windows版本为准，Mac版本就自行解决吧~
+### 1.2 方法二：直接安装Python
+
+优缺点我感觉就和Anaconda的相反。
+
+安装过程：
+> 1. [下载地址](https://www.python.org/downloads/)
+> 2. 目前最新版本是3.8.1，Anaconda目前最新是3.7版本，对我们来说没有很大区别。
+>根据自己电脑版本下载对应的就可以。
+> 3. 双击下载的`.exe`文件，继续
+> 4. 同理，要勾选`Add Python 3.8 to PATH`这个选项。![网上找的图]()
+> 5. 同上面的方法，检查是否安装成功。
+
+
+**NOTE**
+1. 都要记得勾选`add to path`的选项，就是添加到系统环境变量。如果安装过程中勾选了，就没什么问题。
+2. 如果没有勾选，自己百度添加吧，下面提到的IDE也都要添加到环境变量。如果实在不知道，那就重新安装一次，再勾选吧
+3. 如果安装不成功或有其他问题，请自行百度。或私聊，提供一对一服务，欸嘿~  
+4. 我电脑是windows，所以设置啥的都是以windows版本为准，Mac版本就自行解决吧~
 
 
 ## 2. 关于Pycharm和Jupyter Notebook的选择
@@ -40,17 +68,20 @@ Info: Python的安装、设置、运行
 >如果用Jupyter Notebook或其它，有不一样的地方就只能自行百度了~
 >（没错！就是要你跟我一起用Pycharm~哈哈哈）
 
-#### 2.1 Pycharm的安装
-1. [下载网址](https://www.jetbrains.com/pycharm/)
-2. 下载Community版本就可以，是免费的。用Community版本是完全够的，非常够！
-3. 如果确实想用Professional版本，可以自行百度怎么激活。也可以提供一对一服务~
+## 3. Pycharm的安装
 
-## 3. 关于环境变量
-要把Anaconda，Python，和Pycharm或者Jupyter Notebook的安装路径都添加到系统的环境变量
-（具体请百度，懒得写了）
+> 1. [下载网址](https://www.jetbrains.com/pycharm/)
+> 2. 下载电脑对应的版本即可。下载Community版本就可以，是免费的。用Community版本是完全够的，非常够！
+> 3. 同样，一路`Next`，直到这步，
+>必须勾选`Add launchers dir to the PATH`，
+>强烈建议勾选`Add "Open Folder as Project"`。
+> 4. 后面基本上没啥，一路完成就可以。
+> 5. Community版本到这里就结束了。如果确实想用Professional版本，可以自行百度怎么激活。也可以提供一对一服务~
 
 
-## 4. 设置解释器
+## 4. Pycharm中设置解释器
+
+### 4.1 方法一：
 这时候，你已经安装好了Anaconda和Pycharm。那我们就打开Pycharm开始吧。
 
 两种方式：
