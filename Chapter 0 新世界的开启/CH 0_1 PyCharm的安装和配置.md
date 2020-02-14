@@ -62,7 +62,7 @@ Info: PyCharm的安装和配置
 5. 设置解释器：  
 5.1 如果是用Anaconda安装的Python，那么就类似我的设置，在`Conda Environment | Existing environment`中，设置为自己的Anaconda安装路径下的Python路径即可。如图：  
 ![图片](https://github.com/git-wy/SimplePython/blob/master/%E5%9B%BE%E7%89%87/Pycharm%20%E8%AE%BE%E7%BD%AE%E8%A7%A3%E9%87%8A%E5%99%A8%2003.png?raw=true)  
-5.2 如果是直接安装的Python，那就选择`Systerm`，设置为自己的Python安装路径下的Python.exe即可。  
+5.2 如果是直接安装的Python，那就选择`System Environment`，设置为自己的Python安装路径下的Python.exe即可。  
 
 
 >1. 如果还不是太清楚，百度一下就好了。各位的搜索能力我还是相信的~
