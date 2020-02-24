@@ -11,9 +11,9 @@ Info: 调用腾讯API，进行录音文件转写，实现语音转文字。主�
 ## 1. 获取腾讯API密钥
 1. 首先要有腾讯云账号，[进入腾讯云官网](https://cloud.tencent.com/)，登录或注册账号
 2. 进入控制台，[网址](https://cloud.tencent.com/login?s_url=https%3A%2F%2Fconsole.cloud.tencent.com%2F)
-3. 在控制台界面，右上角个人界面下，进入`访问管理`。如图：
+3. 在控制台界面，右上角个人界面下，进入`访问管理`。如图：  
 ![](https://github.com/git-wy/SimplePython/blob/master/%E5%9B%BE%E7%89%87/Chapter%204/%E8%85%BE%E8%AE%AFAPI%20%E8%AE%BF%E9%97%AE%E7%AE%A1%E7%90%86%2001.png?raw=true)
-4. 在访问管理界面中，选择`访问密钥 | API密钥管理`。如图：
+4. 在访问管理界面中，选择`访问密钥 | API密钥管理`。如图：  
 ![](https://github.com/git-wy/SimplePython/blob/master/%E5%9B%BE%E7%89%87/Chapter%204/%E8%85%BE%E8%AE%AFAPI%20%E5%AF%86%E9%92%A5%E7%AE%A1%E7%90%86%2001.png?raw=true)
 5. 双击进入，可以不管提示直接进入。点击`新建密钥`。
 6. 生成的密钥部分，SecretId和SecretKey是我们需要的。
