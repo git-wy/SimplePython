@@ -85,7 +85,10 @@ if __name__ == '__main__':
     TaskIdList = []
     ResultList = []
 
+    print('####################### 开始请求转换…… ########################')
+
     for i in range(0, len(data_list)):
+        print('开始请求转换第 %d 个文件' % (i + 1))
         data_file = open(r'{}\{}'.format(file_path, data_list[i]), mode='rb')
         data_b = data_file.read()
         data_length = len(data_b)
@@ -93,12 +96,19 @@ if __name__ == '__main__':
 
         TaskIdList.append(processor.create_request(data_code, data_length))
 
+    print('#######################  所有文件转换成功！ ########################')
+
+    print('#######################  开始请求转换结果…… ########################')
+
     for j in range(0, len(TaskIdList)):
+        print('开始请求获取第 %d 个文件的转换结果' % (j + 1))
         ResultList.append(processor.get_result(TaskIdList[j]))
 
+    print('#######################  所有结果请求成功！ ########################')
     result_df = pd.DataFrame(ResultList, columns=['text'])
     data_df = pd.DataFrame(data_list, columns=['file'])
     final = pd.concat([data_df, result_df], axis=1)
 
     final.to_excel(result_file, index=False)
+    print('结果保存成功！')
 
