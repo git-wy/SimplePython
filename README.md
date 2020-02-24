@@ -98,6 +98,8 @@ SimplePython
 # Chapter 4 语音分析
 
 [待更新]()
+1. 利用腾讯API实现语音转文字[初步完结](https://github.com/git-wy/SimplePython/tree/master/Chapter%204%20%E8%AF%AD%E9%9F%B3%E5%88%86%E6%9E%90/CH%204_1%20%E8%AF%AD%E9%9F%B3%E8%BD%AC%E6%96%87%E5%AD%97)
+
 
 # Chapter 5 爬虫
 [待更新]()
