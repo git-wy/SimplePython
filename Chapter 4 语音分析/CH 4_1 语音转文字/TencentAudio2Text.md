@@ -43,3 +43,8 @@ pip install tencentcloud-sdk-python
 5. 直接运行`TencentAudio2Text.py`即可。
 
 
+## 4. 其它说明
+
+1. 腾讯云每个月只有30个小时的录音文件转换额度，可以[点击这里](https://console.cloud.tencent.com/asr)看看自己用了多长时间。
+
+
