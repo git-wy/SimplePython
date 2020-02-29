@@ -86,7 +86,7 @@ SimplePython
 # Chapter 3 自然语言处理
 [待更新]()
 
-1. 利用腾讯API进行情感分析[初步完结]()
+1. 利用腾讯API进行情感分析[初步完结](https://github.com/git-wy/SimplePython/tree/master/Chapter%203%20%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/CH%203_1%20%E6%83%85%E6%84%9F%E5%88%86%E6%9E%90)
 
 **INFO**
 >简单的自然语言处理方法
