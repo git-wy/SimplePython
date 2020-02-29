@@ -90,20 +90,20 @@ if __name__ == '__main__':
     #################################### 以下为自定义设置区 ###############################################
 
     headers = {
-        'cookie': 'SCF=AiBXx3WGn8XIfy52GrgK7EBvBxZ5Ix00ETzKCsezG3_NFuQVRKj8hNxCp7jneelrEobvdThpKItTsty1J6FwvjA.; SUB=_2A25zIUKuDeRhGeFM7FYW8y7MyT6IHXVQ6m7mrDV6PUJbktANLVH5kW1NQKJ2r15G6X8evwlpvIcO-HaUkFnmwcjG; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9W5nXSwyD.p2ZcK2acsL6AzJ5JpX5K-hUgL.FoMES0BNe057eoz2dJLoI7_0qg_fMJ2Neh24Sntt; SUHB=0jBYCzL56B0iAp; _T_WM=42334287993; XSRF-TOKEN=d1555a; WEIBOCN_FROM=1110006030; MLOGIN=1; M_WEIBOCN_PARAMS=luicode%3D10000011%26lfid%3D2302836380785598%26fid%3D2304136380785598_-_WEIBO_SECOND_PROFILE_WEIBO%26uicode%3D10000011',
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36'
+        'cookie': '自己浏览器中的cookie复制过来',
+        'user-agent': '自己浏览器中的user-agent复制过来'
     }
     # 上面headers的获取方式请参考github上面的说明
 
-    destination_list = pd.read_excel(r'E:\Data Mining\Spider\Spider_Weibo\HomePage\destination.xlsx',
+    destination_list = pd.read_excel(r'E:\Data Mining\SimplePython\Chapter 5 爬虫\CH 5_1 爬取用户微博及其评论\destination.xlsx',
                                      dtype={'containerid': str, 'lfid': str},
                                      encoding='gbk')
     # 保存景区首页网址的excel文件，具体的格式请参考github上的说明
 
-    conn = sqlite3.connect(r'E:\Data Mining\Spider\Spider_Weibo\HomePage\weibo.sqlite')
+    conn = sqlite3.connect(r'E:\Data Mining\SimplePython\Chapter 5 爬虫\CH 5_1 爬取用户微博及其评论\weibo.sqlite')
     # 保存sqlite数据库的路径，路径改成自己的就好，名称weibo.sqlite建议不要改，不然后面也要改
 
-    result_file = r'E:\Data Mining\Spider\Spider_Weibo\HomePage\weibo.xlsx'  # 保存最终结果的excel文件路径及文件名
+    result_file = r'E:\Data Mining\SimplePython\Chapter 5 爬虫\CH 5_1 爬取用户微博及其评论\weibo.xlsx'  # 保存最终结果的excel文件路径及文件名
 
     start = 0
 
@@ -115,6 +115,8 @@ if __name__ == '__main__':
     # 如果不修改从头分析的话也可以，数据会重复，但是没关系，我最后导出到excel的时候设置了去重，所以不影响结果
     # 另外，如果中途报错，那么之前结果是不会保存到excel的，但是会存在sqlite里，所以没关系，跑完最后一条会导出所有数据的
     # 只有输出了最后一条“结果导出到excel成功”才是所有的都跑完了
+
+    # 可能的报错是cookie访问过多过快，如果是这样，稍微等一会，刷新一下，用一个新的cookie即可。
 
     #################################### 以上为自定义设置区 ###############################################
 

@@ -84,16 +84,16 @@ if __name__ == '__main__':
     ####################################  以下为自定义设置区  #####################################
 
     headers = {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36',
-        'cookie': 'SCF=AiBXx3WGn8XIfy52GrgK7EBvBxZ5Ix00ETzKCsezG3_NFuQVRKj8hNxCp7jneelrEobvdThpKItTsty1J6FwvjA.; SUB=_2A25zIUKuDeRhGeFM7FYW8y7MyT6IHXVQ6m7mrDV6PUJbktANLVH5kW1NQKJ2r15G6X8evwlpvIcO-HaUkFnmwcjG; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9W5nXSwyD.p2ZcK2acsL6AzJ5JpX5K-hUgL.FoMES0BNe057eoz2dJLoI7_0qg_fMJ2Neh24Sntt; SUHB=0jBYCzL56B0iAp; _T_WM=42334287993; WEIBOCN_FROM=1110006030; MLOGIN=1; XSRF-TOKEN=c3b986'
+        'cookie': '自己浏览器中的cookie复制过来',
+        'user-agent': '自己浏览器中的user-agent复制过来'
     }
     # 上面headers的获取方式请参考github上面的说明
 
-    conn = sqlite3.connect(r'E:\Data Mining\Spider\Spider_Weibo\HomePage\weibo.sqlite')
+    conn = sqlite3.connect(r'E:\Data Mining\SimplePython\Chapter 5 爬虫\CH 5_1 爬取用户微博及其评论\weibo.sqlite')
     # 保存sqlite数据库的路径，路径改成自己的就好，注意这里的weibo.sqlite和GetWeibo里面是一样的，是同一个数据库
     # 如果GetWeibo里改了，这里也要改
 
-    result_file = r'E:\Data Mining\Spider\Spider_Weibo\HomePage\comments.xlsx'
+    result_file = r'E:\Data Mining\SimplePython\Chapter 5 爬虫\CH 5_1 爬取用户微博及其评论\comments.xlsx'
     # 保存最终结果的excel文件路径及文件名，注意这里的名称不能和GetWeibo里面的一样
 
     start = 0

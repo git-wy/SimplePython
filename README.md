@@ -106,7 +106,7 @@ SimplePython
 # Chapter 5 爬虫
 [待更新]()
 
-1. 用户微博及其评论爬取[初步完结]()
+1. 用户微博及其评论爬取[初步完结](https://github.com/git-wy/SimplePython/tree/master/Chapter%205%20%E7%88%AC%E8%99%AB/CH%205_1%20%E7%88%AC%E5%8F%96%E7%94%A8%E6%88%B7%E5%BE%AE%E5%8D%9A%E5%8F%8A%E5%85%B6%E8%AF%84%E8%AE%BA)
 
 **INFO**
 >爬虫教程必推崔庆才大神！！！b站就有教程。易懂、好学、全面，就是特别全面，涉及很多内容。
