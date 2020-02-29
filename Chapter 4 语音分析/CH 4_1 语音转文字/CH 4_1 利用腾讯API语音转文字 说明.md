@@ -4,7 +4,7 @@
 Author: W.Y.  
 Date: 2020/2/24  
 Update: 2020/2/24  
-Info: 调用腾讯API，进行录音文件转写，实现语音转文字。主要是这个代码文件`TencentAudio2Text.py`的实现方式。
+Info: 调用腾讯API，进行录音文件转写，实现语音转文字。主要是这个代码文件`TencentAudio2Text.py`的使用方式。
 
 ----
 
